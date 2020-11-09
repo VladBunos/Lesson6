@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin: 0 auto;
+}
+
+.page1 {
+  width: 100%;
+  max-width: 1400px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.page1_prop {
+  background-color: #f5f5f5;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.page2 {
+  width: 100%;
+  height: 100vh;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.page2_prop {
+  background-color: white;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-top: 45vh;
+}
+
+.info {
+  width: 80%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.card {
+  /* border: 1px solid black; */
+  margin-right: 7.07vw;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+.tabcolumn {
+  width: 8vw;
+  height: 56vh;
+  box-sizing: border-box;
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  margin-left: -2px;
+  margin-bottom: -4px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.tabcolumn__element_prop {
+  width: 8vw;
+  height: 18.67vh;
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+  margin-bottom: 2px;
+  padding-top: 7.7vh;
+  padding-bottom: 7.6vh;
+  background-color: #ff9b51;
+}
+
+.tabcolumn__element_prop:nth-child(1n + 2) {
+  background-color: #333333;
+}
+
+.tabcolumn__element_prop:first-child {
+  border-radius: 4px 4px 0px 0px;
+}
+.tabcolumn__element_prop:last-child {
+  border-radius: 0px 0px 4px 4px;
+}
+
+.info > .card:nth-child(2) {
+  max-width: 36vw;
+  margin-right: 5.57vw;
+}
+
+.info > .card:nth-child(3) {
+  max-width: 36vw;
+  margin-right: 0;
+  margin-top: 1.25rem;
+}
+
+.prop-mb7vh {
+  margin-bottom: 7vh;
+}
+
+.prop-fontRW20px {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 23px;
+  color: #000000;
+}
+
+.prop-fontRW14px {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 20px;
+  color: #86878b;
+}
+
+.prop-fontRW15px {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.9375rem;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.btn {
+  background: #fa8f21;
+  border-radius: 4px;
+  border: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 18px;
+  color: #ffffff;
+  padding: 0.75rem 1.9375rem;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.btn:hover {
+  color: #fa8f21;
+  background-color: #333333;
+  box-sizing: border-box;
+}
+
+.commentblock {
+  width: 80%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 27%;
+  /* border: 1px solid black; */
+  padding: 1.5625rem 1.25rem 1.125rem 0.75rem;
+  box-sizing: border-box;
+  font-family: "Raleway";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 16px;
+  color: rgba(134, 135, 139, 1);
+  background-color: #f5f5f5;
+}
+
+.trianglebox {
+  width: 27%;
+  height: 2.83vh;
+  padding-left: 1.45vw;
+  /* border: 1px solid black; */
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #f5f5f5;
+}
+
+.box2 {
+  width: 27%;
+  /* border: 1px solid black; */
+  height: 11.66vh;
+  box-sizing: border-box;
+  background-image: url(./Images/avatar_2_u231\ 1.png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 5rem;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 23px;
+  color: #333333;
+}
+
+.prop1{
+font-family: "Open Sans";
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 19px;
+color: #86878B;
+}
